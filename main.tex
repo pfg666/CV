@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\newcommand{\myname}{Paul Fiter\u{a}u-Bro\c{s}tean}
+\newcommand{\nwork}[1]{\newblock{\textit{Notable Work:} #1}}
+\newcommand{\thesis}[1]{\newblock{\textit{Thesis:} #1}}
+\newcommand{\plang}[1]{$($#1$)$}
+\renewcommand{\plang}[1]{}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{bibentry}
+
+
+\name{\myname{}} % Your name
+
+\address{Ana Ip\u{a}tescu 13 \\ Timi\c{s}oara, Romania} % Your secondary addess (optional)
+\address{Telephone: +40\ 720\ 114646 \\ Email: fiteraup@yahoo.com} % Your phone number and email
+\address{Heyendaalseweg 39 \\ Nijmegen, Netherlands} % Your address
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\item {\bf Radboud University, Nijmegen} \hfill 2013-2017 (expected) \\
+PhD in Computer Science \\
+PhD Thesis on applying active automata learning techniques to network protocols. 
+\smallskip{}
+\item {\bf Politehnica University, Timi\c{s}oara} \hfill 2011-2013 \\
+Master in Software Engineering \\
+Master's Thesis on the semi-automatic generation of drivers for connecting learners to systems to be learned, graded with 10. 
+%\item \nwork{Developed small web applications using JSP, Java Beans and REST. Also helped implement a complex RESTful application, based on Play Framework. Composed services using BPEL. Implemented type checking, type inference and simplified Prolog language interpreter.} 
+\smallskip{}
+\item {\bf Radboud University, Nijmegen} \hfill 2012-2013 \\
+Erasmus exchange student for one semester
+%\item \nwork{Helped develop a suggestion system for a bookstore coded in PHP. Implemented a DSL language, to control rovers that would move on a table, communicate with each other, and search for lakes and measure temperatures. Connected a loop bound analyzer tool to a pattern matcher to speed up bound inference. Extensive use of model based classical, model-based testing and automata learning techniques on facile software.} 
+\smallskip{}
+\item {\bf Politehnica University, Timi\c{s}oara} \hfill 2007-2011 \\
+Bachelor in Computers and Information Technology \\
+Bachelor's Thesis on extending the Fractal architecture description language as to enable description of reconfiguration operations, graded with 10.
+%\item \nwork{Built a compiler and interpreter setup in C for a subset of the Pascal language. Coded a Broker in Java, mediating communication between client and server, using dynamic invocation, code generation and marshalling/ unmarshalling of messages. Built projects exercising making use of Java's concurrency features.}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+\item \begin{rSubsection}{Radboud University, Nijmegen}{November 2013 - November 2017}{Researcher and Teaching Assistant}{Nijmegen}
+\item Contributed to the development of three automata learning tools: \emph{RaLib}\plang{Java}, \emph{Tomte}\plang{Java, Python} and \emph{smtgi}\plang{Python}; and
+two learning setups: \emph{tcp-learner}\plang{Java, Python} for TCP stacks, and \emph{ssh-mapper}\plang{Java, Python} for SSH servers. Ran learning experiments to obtain models for different TCP and SSH implementations and performed (manual or automated) conformance checking with respect to specifications. Advanced algorithms for active learning of Register Automata.
+\item Assisted with the Computer Networking course: formulated projects, assignments and exam problems. Also held practicals and gave a guest lecture.
+\end{rSubsection}
+
+
+
+\begin{rSubsection}{Alcatel Lucent}{February 2013 - April 2013}{Junior Software Developer}{Timi\c{s}oara}
+\item Helped develop a License Manager tool, coded in C\# using Visual Studio's MVC 3 template. Development followed agile methodology, with frequent stand-ups, demos and reviews.
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{e-Austria}{July 2012 - August 2013}{Junior Researcher}{Timi\c{s}oara}
+\item Developed Java framework which automatically generates learning setups connecting the learners Tomte and SIMPA to Java and Web applications. Ran experiments on conceptual and real systems.
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Alcatel Lucent}{October 2011 - July 2012}{Junior Software Developer}{Timi\c{s}oara}
+\item Maintained and extended a Radio Network Planning tool programmed in C\#. Added new features, refactored old code, ported old tests from one test framework (NUnit) to another (the built-in Visual Studio), maintained and added to the set of unit tests. Worked in an Agile Development process, participating in frequent stand-up meetings, demos and retrospectives.
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Computer Languages (proficient): & Java, Python, C\#, C, OCaml, Lisp, FoxPro \\
+%Computer Languages (basic): & Pascal, Prolog, Verilog \\
+%Web-design: & Visual Studio MVC 3, HTML, JSP, REST, PHP, Java Beans, Apache, Xampp \\
+%IDEs: & Eclipse, Visual Studio, Notepad++, IntelliJ, Netbeans, DevC \\
+%Versioning & git, svn \\
+%Virtualization: & VirtualBox, VMWare, DosBox 
+%\end{tabular}
+
+\begin{rSection}{Technical Skills}
+\begin{tabular}{@{} >{\bfseries}l @{  } >{\small}l}
+\small{Expertise} 
+& Software Development (object-oriented, procedural and functional). \\[0.2em]
+& Testing and verification (model learning, classical and model-based testing, model checking). \\[0.2em]
+& Algorithm design and implementation. \\[0.2em]
+& Scientific research and writing. \\[0.7em]
+\small{Environment} & Windows (cmd prompt and PowerShell) and Linux (bash). \\[0.7em] 
+\small{Programming} & proficient in Java, Python, Latex. \\[0.2em]
+& has experience with C\#, C, OCaml, Lisp, FoxPro.\\[0.2em]
+& basic knowledge of Pascal, Prolog, Verilog.\\[0.7em]
+\small{Web-design} & Visual Studio MVC 3, HTML, JSP, REST, PHP, Java Beans, Apache, Xampp. \\[0.7em]
+\small{IDEs} & Eclipse, PyCharm, Visual Studio, Notepad++, IntelliJ, Netbeans, DevC. \\[0.7em]
+\small{Versioning} & Git, SVN. \\[0.7em]
+\small{Virtualization} & VirtualBox (in particular), VMWare, DosBox. \\[0.7em]
+\small{Test Frameworks} & JUnit, NUnit and Visual Studio Testing Framework, Selenium IDE, JTorX, Conformiq. \\[0.7em]
+\small{Other} & Understanding of core protocols within the TCP/IP stack. 
+\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{Languages}
+\begin{tabular}{ l @{\hspace{6ex}} l }
+Romanian & native \\
+English & full working proficiency \\
+Dutch & basic to intermediate \\
+French & basic \\
+German & basic \\
+\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{Hobbies}
+Singing (both in a choir and alone), jogging, gaming and reading.
+\end{rSection}
+
+\begin{rSection}{Publications}
+\nobibliography{publications}
+\bibliographystyle{unsrt}
+\item \bibentry{FJV2014}
+\smallskip{}
+\item \bibentry{AFKV15}
+\smallskip{}
+\item \bibentry{FJV2016}
+\smallskip{}
+\item \bibentry{SPIN2017}
+\smallskip{}
+\item \bibentry{FH2017}
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
