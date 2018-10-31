@@ -1,0 +1,1 @@
+At some point I decided that it would only be fitting my academic career to have a version of my CV also in Latex, rather than only in Word. Thanks to Trey Hunner (http://www.treyhunner.com/) for the template.
